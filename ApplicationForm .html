@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <table align="center">
+    <center><h1>Application Form</h1></center>
+    </table>
+    <form action="form1.html" method="get">
+    <table align="center" cellspacing="10" cellpadding="10">
+        <tr>
+           <td><label for="First Name" >First Name:<sup>*</sup></label></td> 
+           <td><input type="text" id="First Name" name="First Name" required></label></td>
+
+
+            <td><label for="Last Name" >Last Name:<sup>*</sup>></label></td> 
+           <td><input type="text" id="Last Name" name="Last Name" required></label></td>
+        </tr>
+        <tr>
+            <td><label for="dob"> Date Of Birth: <sup >*</sup></label></td>
+            <td><input type="Date" id="dob" required></td>
+            <td><label for="Age">Age:</label></td>
+            <td><input type="text" id="Age" required></td>
+        </tr>
+        <tr>
+            <td>GENDER: </td>
+          <td> <input type="radio" id="Male" name="Gender" value="Male" required>
+          <label for="Male">MALE</label>
+       
+          <input type="radio" id="Female" name="Gender" value="Female" required>
+            <label for="Female">FEMALE:</label></td>
+
+          <td><label for="Email">Email:<sup>*</sup></label></td>
+          <td><input type="Email" id="Email" name="Email" required></td>
+          </tr>
+          <tr>
+            <td>Position Available:</td>
+            <td> 
+                <input type="radio" id="Junior Developer" name="Position Available" value="Junior Developer" required>
+                <label for="junior Developer">Junior Developer:</label>
+                <input type="radio" id="Mid-level Developer" name="Position Available" value="Mid-level Developer" required>
+                <label for="Mid-level Developer">Mid-level Developer</label>
+                <input type="radio" id="Senior Developer" name="Position Available" value="Senior Developer" required>
+                <label for="Senior Developer"> Senior Developer</label>
+            </td>
+            <tr>
+              <td>Programming Languages:</td>
+              <td>
+                <input type="checkbox" id="Java" name="Programming Languages" value="Java">
+                <label for="Java">Java</label>
+                <input type="checkbox" name="Programming Languages" id="Java Script" value="Java Script">
+                <label for="Java Script">Java Script</label>
+                <input type="checkbox" name="Programming Languages" id="Python" value="Python">
+                <label for="Python">Python</label>
+              </td>
+            </tr>
+            <tr>
+            
+              <td> <label for="password"> PassWord:</label></td>
+             <td><input type="password" id="PassWord" required></td> 
+
+             <td> <label for=" Confirm password">Confirm PassWord:</label></td>
+             <td><input type="password"  id=" Confirm PassWord" required></td> 
+             
+              
+              </tr>
+              <tr>
+                
+                 <td colspan="2" align="center">  
+                  
+                  <input type="submit" value="Submit">
+                  
+                 <input type="reset"  value="Reset"></td>
+                 
+              </tr>
+           
+
+          </tr>
+    </table>
+    </form>
+</body>
+</html>
